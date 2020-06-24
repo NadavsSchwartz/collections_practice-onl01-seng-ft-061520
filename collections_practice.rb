@@ -39,3 +39,5 @@ def sum_array(arr)
   end
   sum
 end 
+
+
