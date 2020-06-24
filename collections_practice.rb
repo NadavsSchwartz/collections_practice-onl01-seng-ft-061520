@@ -40,4 +40,12 @@ def sum_array(arr)
   sum
 end 
 
-
+def add_s(arr)
+  arr.collect do |word|
+    if arr[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
